@@ -1,4 +1,4 @@
-arr = [7734, 6843, 5765, 4345, 6578]
+arr = list(map(int,input().split("Enter number with spaces : ")))
 n = len(arr)
 for i in range(n-1):
     for j in range(n-i-1):
